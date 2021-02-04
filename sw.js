@@ -1,5 +1,12 @@
 const cacheName = 'news-v1';
-const staticAssets = [];
+const staticAssets = [
+  './',
+  './index.html',
+  './styles.css',
+  './index.js',
+  './newsApi.js',
+  './news-article.js'
+];
 
 self.addEventListener('install', async e => {
   const cache = await caches.open(cacheName);
