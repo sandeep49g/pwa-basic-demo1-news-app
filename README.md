@@ -1,0 +1,1 @@
+Note: Core JS Service Worker: Cached with all files : Network API would even work if no internet with old cached data
