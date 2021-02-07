@@ -13,8 +13,8 @@ async function getNews() {
   const main = document.querySelector('main');
 
   json.articles.forEach(article => {
-    const el = document.createElement('sandeep-garg');
-    el.garg = article;
+    const el = document.createElement('news-article');
+    el.article = article;
     main.appendChild(el);
   });
 }

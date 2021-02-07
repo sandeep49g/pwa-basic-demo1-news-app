@@ -3,7 +3,7 @@ class NewsArticle extends HTMLElement {
     super();
     this.root = this.attachShadow({ mode: 'open' });
   }
-  set garg(article) {
+  set article(article) {
     this.root.innerHTML = `
           <style>
            h2 {
@@ -28,4 +28,4 @@ class NewsArticle extends HTMLElement {
   }
 }
 
-customElements.define('sandeep-garg', NewsArticle);
+customElements.define('news-article', NewsArticle);
